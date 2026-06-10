@@ -1,0 +1,260 @@
+id,source,title,label,image_path_primary,valid_image_path,mm_pred_label,mm_confidence,mm_correct
+gossipcop-2656814899,gossipcop,Met Gala 2018: Madonna snacks while getting glammed up,fake,images\test\gossipcop-2656814899_0_43880667d2.jpg,True,real,0.983290433883667,False
+gossipcop-921537,gossipcop,Selena Gomez Brings a Ukulele and a Bikini to Australia–but Not Justin Bieber,real,images\test\gossipcop-921537_0_1b2781c9c4.jpg,False,fake,0.9812512397766113,False
+gossipcop-7259603960,gossipcop,Affordable Fashion & Style Blog,fake,images\test\gossipcop-7259603960_0_93d1ab95fe.jpg,False,real,0.9807563424110413,False
+gossipcop-6345761457,gossipcop,Celebrities pay tribute to Mary Tyler Moore,fake,images\test\gossipcop-6345761457_0_afc03ef78c.jpg,True,real,0.9782092571258545,False
+gossipcop-2932564057,gossipcop,"VIDEO: Fifth Harmony Perform, Play 'Flinch' on LATE LATE SHOW Video",fake,images\test\gossipcop-2932564057_1_268df9607c.jpg,True,real,0.9778751134872437,False
+gossipcop-8092575981,gossipcop,The Bachelorette: Becca 'Frustrated' That Tia Still Has Feelings for Colton,fake,images\test\gossipcop-8092575981_0_bd1e18b4f4.jpg,True,real,0.9762276411056519,False
+gossipcop-9131837077,gossipcop,"Get a grip teenagers! You've got a few GCSEs not a role on Netflix, says LIZ JONES",fake,images\test\gossipcop-9131837077_0_3290bf4034.jpg,True,real,0.9736219644546509,False
+gossipcop-3623255149,gossipcop,UPDATE: Steven Tyler Denies Seizure Reports,fake,images\test\gossipcop-3623255149_0_b995cf7bf3.jpg,True,real,0.9720459580421448,False
+gossipcop-9093685718,gossipcop,Vito Schnabel Shares His Heartbreak Over Heidi Klum Split,fake,images\test\gossipcop-9093685718_0_8b12384eae.jpg,True,real,0.9643858671188354,False
+gossipcop-952215,gossipcop,Blake Shelton Falls on Stage and It May Just Be Pitbull's Fault,real,,False,fake,0.9610108733177185,False
+gossipcop-9737723367,gossipcop,Russell Crowe reveals he's lost 24 kgs after gaining weight for The Nice Guys role,fake,images\test\gossipcop-9737723367_0_753a3fbde1.jpg,True,real,0.9528312087059021,False
+politifact15532,politifact,MEXICO’S NEXT PRESIDENT Calls for An Invasion Of The US….,fake,,False,real,0.9508299827575684,False
+gossipcop-3054920479,gossipcop,"Is it true that Prince Charles would need to change his name if he ever became King of England, due to the misfortunes of previous King Charles''?",fake,,False,real,0.9424863457679749,False
+gossipcop-8916783957,gossipcop,Serena Williams: John McEnroe believes she would struggle on men's circuit,fake,images\test\gossipcop-8916783957_0_887067904e.jpg,True,real,0.9404744505882263,False
+gossipcop-7064865875,gossipcop,Irish actress Ruth Negga to see her Hollywood star status SOAR,fake,images\test\gossipcop-7064865875_0_196cfc059b.jpg,True,real,0.9330767393112183,False
+gossipcop-9665725384,gossipcop,"Audrina Patridge Files for Divorce, Gets Restraining Order Against Husband (UPDATE)",fake,images\test\gossipcop-9665725384_0_e026cf162b.jpg,True,real,0.9316127300262451,False
+gossipcop-6737488799,gossipcop,"9 Things to Know About Armie Hammer, the Hero Taking Over Hollywood",fake,images\test\gossipcop-6737488799_0_6dffb90e47.jpg,True,real,0.9229501485824585,False
+gossipcop-994450447,gossipcop,J.Lo and A-Rod Have More In Common Than You Think,fake,images\test\gossipcop-994450447_0_e259ecffd9.jpg,True,real,0.9213818907737732,False
+gossipcop-9412456850,gossipcop,Jessica Chastain Molly’s Game,fake,,False,real,0.9073647260665894,False
+politifact14311,politifact,10 Things You Didn't Know About Nancy Pelosi,fake,,False,real,0.900119423866272,False
+gossipcop-7179143698,gossipcop,"‘Big Little Lies’ Season 2: Shailene Woodley, Laura Dern, Zoë Kravitz Set to Return",fake,images\test\gossipcop-7179143698_0_0e532549c1.jpg,True,real,0.8957591652870178,False
+gossipcop-5140313352,gossipcop,Jada Pinkett Smith reveals she's losing her hair: 'I was literally shaking with fear',fake,images\test\gossipcop-5140313352_0_a5cdd68c50.jpg,True,real,0.8937692642211914,False
+gossipcop-921998,gossipcop,Blake Shelton Reminds Fans That Gwen Stefani Is the “Greatest”,real,images\test\gossipcop-921998_1_02dd4906e5.jpg,True,fake,0.8913195133209229,False
+gossipcop-1764765812,gossipcop,John Travolta ’ t Allow Daughter Ella To Become An Actress,fake,,False,real,0.886025607585907,False
+politifact15475,politifact,"National Guard Storms Mexico Border, Makes Game-Changing Impact In Just 30 Days",fake,,False,real,0.8849689364433289,False
+gossipcop-3234538476,gossipcop,Human trafficking: Girl brought to UK aged 5 kept as slave for a decade and beaten,fake,images\test\gossipcop-3234538476_0_d49ca241e9.jpg,True,real,0.882780909538269,False
+gossipcop-6259225104,gossipcop,Here's Why You Won't See Ashton Kutcher's Kids Online,fake,,False,real,0.8814260363578796,False
+gossipcop-862415,gossipcop,George Clooney’s Tequila Company Sold for Up to $1 Billion,real,,False,fake,0.8795264959335327,False
+gossipcop-880326,gossipcop,Francia Raisa opened up about her tough recovery after donating a kidney to BFF Selena Gomez,real,,False,fake,0.877767026424408,False
+gossipcop-621464173,gossipcop,Kim Kardashian shares family Christmas card,fake,images\test\gossipcop-621464173_0_8395f0b555.jpg,True,real,0.8774421811103821,False
+politifact15268,politifact,THIS ARTICLE RETRACTED: Red Crescent Says No Evidence of Chemical Attack in Syria’s Douma,fake,images\test\politifact15268_0_2c104cfa14.jpg,True,real,0.875267744064331,False
+gossipcop-2900876530,gossipcop,Ashton Kutcher has guys' night with 'That '70s Show' bros Wilmer Valderrama and Danny Masterson,fake,,False,real,0.8745747804641724,False
+gossipcop-1982854556,gossipcop,Jason Momoa Adorns the Cover of American Way’s November Issue,fake,,False,real,0.874352216720581,False
+gossipcop-774720769,gossipcop,Jay-Z's '4:44 Tour' Proves The GOAT Is Still The Greatest,fake,images\test\gossipcop-774720769_0_a3353323fd.jpg,True,real,0.8706725835800171,False
+gossipcop-4578461415,gossipcop,David Letterman Won’t Give Up His Beard,fake,,False,real,0.8636186122894287,False
+gossipcop-7476822295,gossipcop,"Matt Lauer made at least $100 million before he got fired — and he bought a horse farm, a waterfront estate, and a co-op in Bernie Madoff's old building",fake,images\test\gossipcop-7476822295_0_c0c17bd1cc.jpg,True,real,0.8624534606933594,False
+gossipcop-9479384971,gossipcop,"Self-protective, loving and intimate: What Kate and Wills’ body language with their new baby boy reveals",fake,images\test\gossipcop-9479384971_0_720bfca6e4.jpg,True,real,0.8620737791061401,False
+gossipcop-8755915248,gossipcop,Queen Elizabeth II Meeting Prince Louis For the First Time,fake,images\test\gossipcop-8755915248_0_300e570746.jpg,True,real,0.8552758693695068,False
+gossipcop-931729,gossipcop,Priyanka Chopra on her hopes for Meghan Markle’s life as a royal,real,,False,fake,0.8437744379043579,False
+gossipcop-7822262151,gossipcop,Jim Carrey: Hollywood Elites ‘Eat Whole Babies’ For Christmas,fake,,False,real,0.8434360027313232,False
+gossipcop-8929202488,gossipcop,Scarlett Johansson Laughs At Colin Jost’s “Dirty” Talk?,fake,,False,real,0.8398054838180542,False
+gossipcop-910944,gossipcop,Inside George and Amal Clooney's World: Now This Is Fate Working Its Magic,real,,False,fake,0.8379929661750793,False
+gossipcop-884689,gossipcop,"Outlander's Claire and Brianna Are Caught in a Horrible Fight in Sneak Peek of ""Freedom & Whisky""",real,,False,fake,0.837518572807312,False
+gossipcop-9250386784,gossipcop,J.Lo ‘Wild’ Over A-Rod’s ‘Passionate’ Kisses — Their Make Outs Are ‘Next Level’,fake,,False,real,0.8346769213676453,False
+gossipcop-1267637959,gossipcop,Lena Dunham and Jack Antonoff have split up,fake,images\test\gossipcop-1267637959_0_d3bdca8af3.jpg,True,real,0.8330461978912354,False
+gossipcop-881600,gossipcop,Halle Berry Goes on Romantic Dinner Date With Alex Da Kid After Going Public With New Romance: Pic!,real,images\test\gossipcop-881600_0_735c92b29a.jpg,True,fake,0.8306702375411987,False
+gossipcop-667682841,gossipcop,"No, Billy Bush isn't hosting a show on Fox",fake,images\test\gossipcop-667682841_0_0032379338.jpg,True,real,0.8299824595451355,False
+gossipcop-2246616187,gossipcop,"The worst hit song of every year since 2000, from Macklemore to Train (twice)",fake,,False,real,0.8237366080284119,False
+gossipcop-6217155245,gossipcop,Basic Instinct stars Michael Douglas and Sharon Stone reunite for the first time in years (and they've barely aged a day),fake,images\test\gossipcop-6217155245_0_22757645c6.jpg,False,real,0.8189368844032288,False
+gossipcop-5358813438,gossipcop,"Alec, Hilaria Baldwin Introduce Baby Son Rafael: See the First Photos!",fake,images\test\gossipcop-5358813438_2_8316ad7c7a.jpg,False,real,0.8183303475379944,False
+gossipcop-4047356713,gossipcop,Princess Kate Bulimia Battle: Shocking New Photos,fake,,False,real,0.817213773727417,False
+gossipcop-891302,gossipcop,Kim Kardashian Exposes The Weirdest Thing Kanye West Does,real,images\test\gossipcop-891302_0_933fec6b28.jpg,True,fake,0.8169211745262146,False
+gossipcop-3016579480,gossipcop,Teresa Giudice Can’t Afford To Send Daughter To College?,fake,,False,real,0.813423752784729,False
+gossipcop-858966,gossipcop,Alex Rodriguez,real,,False,fake,0.8110346794128418,False
+gossipcop-4867710974,gossipcop,Maks Chmerkovskiy Returns to Dancing with the Stars After Skipping Last Week Due to 'Personal Issue',fake,images\test\gossipcop-4867710974_0_473d1849ee.jpg,True,real,0.8107401728630066,False
+gossipcop-843892,gossipcop,EXCLUSIVE: Simone Biles and Sasha Farber React to Shocking 'DWTS' Elimination: 'This Isn't My Element',real,images\test\gossipcop-843892_0_441bea9fe9.jpg,True,fake,0.8082956075668335,False
+gossipcop-8530020915,gossipcop,Selena Gomez Debuted A New Look on the AMA Red Carpet and Fans Are 'Shook',fake,images\test\gossipcop-8530020915_0_49eee1de7d.jpg,True,real,0.8069769740104675,False
+gossipcop-2623280525,gossipcop,"Khloé, Tristan Are in 'Best Place They've Been Since Scandal': Source",fake,images\test\gossipcop-2623280525_0_dd40aeea48.jpg,True,real,0.8039859533309937,False
+gossipcop-4537850377,gossipcop,Twitter Is Ready To Cancel Chris Rock Over This Reported Rape Joke,fake,images\test\gossipcop-4537850377_1_03420d0272.jpg,True,real,0.7986221313476562,False
+gossipcop-1819145958,gossipcop,Sienna Miller on Wikinow,fake,,False,real,0.7926613092422485,False
+gossipcop-8318775655,gossipcop,Matt Lauer's could pay ex-wife Annette Roque $20M in divorce,fake,images\test\gossipcop-8318775655_0_d2ffc1dc3e.jpg,True,real,0.7916173338890076,False
+gossipcop-916179,gossipcop,Scott Disick and Sofia Richie Enjoy Date Night as She Introduces Second Puppy,real,,False,fake,0.7890627384185791,False
+gossipcop-1414621205,gossipcop,"Jimmy Fallon, James Corden React to Royal Wedding | THR News",fake,images\test\gossipcop-1414621205_0_179519dd15.jpg,True,real,0.7888120412826538,False
+politifact13593,politifact,"Bill Murray Had This to Say About Rochester, New Hampshire Residents – News Daily 12",fake,images\test\politifact13593_0_25b660b55d.jpg,True,real,0.7851830124855042,False
+politifact14835,politifact,Facebook Picks Sides in Alabama Senate Race=> Shuts Down Gateway Pundit and Breitbart Reports on Discredited Allred Accuser,fake,,False,real,0.7835205793380737,False
+gossipcop-909575,gossipcop,Jay-Z: How I mended my marriage to Beyoncé,real,images\test\gossipcop-909575_0_f97e9332f4.jpg,True,fake,0.7823277115821838,False
+gossipcop-3941312971,gossipcop,Lindsay Lohan went full-on Mischa Barton with tribute to terrorism victims,fake,images\test\gossipcop-3941312971_0_b3bd3399db.jpg,True,real,0.7816463708877563,False
+gossipcop-6988354769,gossipcop,Aaron Rodgers Girlfriend: Is Packers QB Dating Soccer Star Marie Margolius? [VIDEO],fake,,False,real,0.7777242064476013,False
+gossipcop-5663483713,gossipcop,Watch Linkin Park's Chester Bennington Tribute Concert Live Stream,fake,,False,real,0.7765592336654663,False
+gossipcop-9302133862,gossipcop,"Sarah Silverman, Kate Beckinsale Writing Comedy Series Together?",fake,,False,real,0.7718790173530579,False
+gossipcop-903790,gossipcop,Khloe Kardashian Has Announced Her Potential Baby Names,real,,False,fake,0.7709375023841858,False
+gossipcop-3662901506,gossipcop,Boss From Hell! Ellen DeGeneres Treats Her Talk Show Staff Like ‘Peasants!’,fake,images\test\gossipcop-3662901506_0_600b2310a6.jpg,True,real,0.7706454992294312,False
+gossipcop-4034085270,gossipcop,John Stamos Talks About Wife Caitlin's '20 Minute' Childbirth,fake,images\test\gossipcop-4034085270_0_6b0cd7cd19.jpg,True,real,0.7661746740341187,False
+gossipcop-913471,gossipcop,Prince Harry and Meghan Markle Pet a Pint-Sized Pony on Royal Visit to Scotland,real,,False,fake,0.7650631666183472,False
+politifact15241,politifact,All Citizens Who Want to Receive Gvt Benefits Must Agree to Be Microchipped in the Near Future,fake,,False,real,0.7581437826156616,False
+gossipcop-920641,gossipcop,Usher Dances With Julianne Hough and Rita Ora to ''Yeah!'' at Party,real,,False,fake,0.7579318881034851,False
+gossipcop-5012694464,gossipcop,A-Rod Is Lying! See The Proof He Booked A Sex Date With His Mistress Months Ago,fake,images\test\gossipcop-5012694464_0_23a1c615eb.jpg,True,real,0.756452202796936,False
+gossipcop-5101516086,gossipcop,Victoria Beckham ‘in talks’ to star in her own reality TV show behind-the-scenes of fashion empire,fake,images\test\gossipcop-5101516086_0_ec546a80e8.jpg,True,real,0.752139151096344,False
+gossipcop-789623646,gossipcop,Priyanka Chopra not attending Oscars 2017 with Mick Jagger? That’s what the Rolling Stones singer hinted at,fake,,False,real,0.7518514394760132,False
+gossipcop-6859685462,gossipcop,Amal Clooney displays her post-baby body in tight tank top,fake,images\test\gossipcop-6859685462_0_f51d6dd707.jpg,True,real,0.7510502338409424,False
+gossipcop-846028,gossipcop,Oops! The Arrangement's Megan Morrison Learns Kyle West's PR Team Is Spreading Tabloid Rumors About Their Relationship,real,,False,fake,0.7503288984298706,False
+gossipcop-931235,gossipcop,Prince Harry and Meghan Markle Will Be Neighbors with Prince William and Kate Middleton,real,images\test\gossipcop-931235_0_969fa3b7e0.jpg,True,fake,0.7500907182693481,False
+gossipcop-948472,gossipcop,Khloe Kardashian Coos at a Grinning Baby True in Adorable Video,real,,False,fake,0.7494699954986572,False
+gossipcop-912993,gossipcop,"Why Kim Kardashian, Khloé Kardashian & Kylie Jenner Use Snapchat Filters on Their Babies' Faces",real,images\test\gossipcop-912993_0_3059807356.jpg,True,fake,0.7475210428237915,False
+gossipcop-849931,gossipcop,Sofia Richie Wears Sky-High Balenciaga Logo Booties for Daytime Froyo Date with Scott Disick,real,images\test\gossipcop-849931_0_c195213889.jpg,False,fake,0.747040331363678,False
+gossipcop-848653,gossipcop,Grey's Anatomy Just Set the Wheels in Motion for Another Doctor's Departure,real,,False,fake,0.7460538148880005,False
+gossipcop-1505670647,gossipcop,Kendall Jenner Can't Help But Make The KUWTK Cameramen Cry,fake,images\test\gossipcop-1505670647_0_89a6b87360.jpg,True,real,0.7440568208694458,False
+gossipcop-950946,gossipcop,Surveillance Footage Shows George Clooney's Scooter Crash,real,images\test\gossipcop-950946_0_935c2ba738.jpg,True,fake,0.7388647198677063,False
+gossipcop-9972962159,gossipcop,What I learnt from Binge Watching Keeping Up With The Kardashians,fake,,False,real,0.7372417449951172,False
+gossipcop-8079114380,gossipcop,14 Reasons Why You Shouldn't Envy The Kardashians,fake,,False,real,0.7372417449951172,False
+gossipcop-896210,gossipcop,Kylie Jenner Chops Off Hair Again Amid Pregnancy Rumors,real,images\test\gossipcop-896210_0_cd3a877011.jpg,False,fake,0.7334598302841187,False
+politifact15263,politifact,Dying 78 Year Old CIA Agent Admits To Killing Marilyn Monroe,fake,,False,real,0.7295341491699219,False
+gossipcop-950674,gossipcop,Meghan Markle Makes A PDA Blunder With Prince Harry Amidst Roller Coaster Week,real,,False,fake,0.7282421588897705,False
+politifact14238,politifact,Cannibals Arrested in Florida Claim Eating Human Flesh Cures Diabetes and Depression,fake,images\test\politifact14238_0_281098771c.jpg,True,real,0.7278420329093933,False
+gossipcop-5173208358,gossipcop,‘Big Bang Theory’: Drama Behind The Scenes Not Causing Show To ‘Fall Apart’ [Debunked],fake,,False,real,0.7227466106414795,False
+gossipcop-848864,gossipcop,"The Abbey's Brandi Talks Having a Baby With BFF Lawrence & GF Chloe: ""It's the Gay Version of Three's Company""",real,,False,fake,0.7194797992706299,False
+gossipcop-5287901459,gossipcop,5 Reasons Why Tarek El Moussa Will Overcome His Latest Back Injury,fake,images\test\gossipcop-5287901459_0_d3a0ff727c.jpg,True,real,0.7184831500053406,False
+gossipcop-526161916,gossipcop,Anna Faris’ Dad Reveals Truth Behind Shocking Split From Chris Pratt,fake,images\test\gossipcop-526161916_0_55c84dc7cb.jpg,True,real,0.7182002663612366,False
+gossipcop-5421604922,gossipcop,Jay Z & Beyonce: He Was Brought To Tears Holding ‘His New Son’ For The First Time Ever,fake,,False,real,0.7171643376350403,False
+gossipcop-884027,gossipcop,Katy Perry spends $7.5 million on lavish four bedroom mansion for her friends and family,real,images\test\gossipcop-884027_0_e2b11a02fe.jpg,True,fake,0.7111368179321289,False
+politifact14222,politifact,Democrat Maxine Waters Has Shown Up To Only 10% Of Congressional Meetings For 35 YEARS,fake,,False,real,0.7089952230453491,False
+gossipcop-902601,gossipcop,Pregnant Khloe Kardashian shows off growing baby bump as she works out with sister Kourtney,real,images\test\gossipcop-902601_0_4ee2853b95.jpg,True,fake,0.7075401544570923,False
+gossipcop-872744,gossipcop,Selena Gomez's ex Zedd speaks out about the worst part of dating the superstar: 'I was pissed',real,images\test\gossipcop-872744_0_7b94b6ace8.jpg,True,fake,0.7002438902854919,False
+gossipcop-4826532331,gossipcop,Celebrities Love: Fashion Nova,fake,images\test\gossipcop-4826532331_0_aca878b265.jpg,True,real,0.6963754892349243,False
+gossipcop-951956357,gossipcop,Ryan Gosling & Eva Mendes Reportedly Expecting Twins — A Boy & A Girl,fake,images\test\gossipcop-951956357_0_7b7fe35dc3.jpg,True,real,0.6942209601402283,False
+gossipcop-920789,gossipcop,"Selena Gomez's Transplant: Francia Raisa Talks Transplant, Depression",real,images\test\gossipcop-920789_0_893e22db42.jpg,True,fake,0.6938690543174744,False
+politifact13038,politifact,The numbers don't lie... - Occupy Democrats,fake,images\test\politifact13038_0_5d63f540c3.jpg,True,real,0.6938341856002808,False
+gossipcop-1012123555,gossipcop,Chris Soules Breaks Silence On Fatal Accident: I’m ‘Overwhelmed With This Tragedy’,fake,,False,real,0.6930162310600281,False
+gossipcop-952733,gossipcop,Katy Perry Suffered From “Situational Depression” Due to Widely Panned Witness Album,real,,False,fake,0.6920187473297119,False
+gossipcop-7175308721,gossipcop,Michael Strahan and Sara Haines will co-host a new midday hour of ABC's 'Good Morning America',fake,images\test\gossipcop-7175308721_0_04bbfa1e45.jpg,True,real,0.6913558840751648,False
+gossipcop-901060,gossipcop,"Mariah Carey's 'All I Want for Christmas Is You' Hits Hot 100's Top 10 for First Time, 'Perfect' Still No. 1",real,images\test\gossipcop-901060_0_0b436560f5.jpg,True,fake,0.6887851357460022,False
+gossipcop-9496768130,gossipcop,Spooky Sounds & Strange Shadows! Keith & Nicole’s Dream Home Haunted By King Of Pop,fake,images\test\gossipcop-9496768130_0_7cd5e30833.jpg,True,real,0.6872434616088867,False
+gossipcop-896079,gossipcop,Kris Jenner dons $8K Versace ensemble to Thanksgiving dinner in Palm Springs,real,images\test\gossipcop-896079_0_f28f25466f.jpg,True,fake,0.6727458834648132,False
+gossipcop-947326,gossipcop,Watch as Tristan Thompson Dotes on Baby True in Heartwarming New Video,real,,False,fake,0.6686890721321106,False
+gossipcop-7052542773,gossipcop,Katy Perry Rocks Lingerie Look for Date Night With Orlando Bloom,fake,images\test\gossipcop-7052542773_0_294de14398.jpg,True,real,0.6682810187339783,False
+politifact4588,politifact,Rick Perry says he switched to GOP at a younger age than Reagan did,real,,False,fake,0.6668524742126465,False
+gossipcop-895247,gossipcop,Hilary Duff Pregnant With Baby No. 2,real,images\test\gossipcop-895247_0_8f6370cc59.jpg,True,fake,0.6633381843566895,False
+gossipcop-884954,gossipcop,Katy Perry Draws Stares In This Outfit After Joining 'American Idol',real,images\test\gossipcop-884954_0_dd271c297d.jpg,True,fake,0.6629363298416138,False
+gossipcop-7827605676,gossipcop,Jennifer Lopez Tickets,fake,images\test\gossipcop-7827605676_0_c1bf58a77b.jpg,True,real,0.661706805229187,False
+politifact14155,politifact,"BOMBSHELL: COMEY KNEW MURDERED DNC STAFFER, SETH RICH, WAS WIKILEAKS SOURCE & COVERED IT UP FOR HILLARY",fake,,False,real,0.6586467027664185,False
+gossipcop-887112,gossipcop,Kacey Musgraves Marries Ruston Kelly,real,images\test\gossipcop-887112_0_61c869b654.jpg,True,fake,0.6563742756843567,False
+gossipcop-840843,gossipcop,Kate Gosselin's Net Worth and Income,real,,False,fake,0.6558479070663452,False
+gossipcop-6445971890,gossipcop,Celebrities React  Anthony Rapp Reveals Kevin Spacey Made Sexual Advance On Him At 14,fake,,False,real,0.6548528075218201,False
+politifact14860,politifact,LAW PASSED: All Child Support in the United States Will End by Beginning of 2018,fake,,False,real,0.6547619104385376,False
+gossipcop-155150728,gossipcop,New Dad George Raises Stink Over Dirty Diaper Duty!,fake,images\test\gossipcop-155150728_0_c589845af4.jpg,True,real,0.6544933915138245,False
+gossipcop-5058047358,gossipcop,Shapeshifting,fake,,False,real,0.6513205766677856,False
+gossipcop-9796099387,gossipcop,Katharine McPhee Jane Doe Jane Doe,fake,,False,real,0.6513205766677856,False
+politifact14330,politifact,ни чего нового как правильно,fake,,False,real,0.6513205766677856,False
+gossipcop-817991122,gossipcop,Billy Connolly,fake,,False,real,0.6513205766677856,False
+politifact13467,politifact,Mental Images,fake,,False,real,0.6513205766677856,False
+gossipcop-7302050641,gossipcop,Academy Book Reference,fake,,False,real,0.6513205766677856,False
+gossipcop-266203600,gossipcop,Interlocking G tights,fake,,False,real,0.6513205766677856,False
+politifact13924,politifact,Colorado Rockies Baseball Team To Sell Marijuana Brownies At Their Concession Stands,fake,,False,real,0.6513205766677856,False
+politifact15409,politifact,CNN To Permanently Close Its Doors As Ratings Plunge 30 Percent,fake,,False,real,0.6513205766677856,False
+gossipcop-3754107472,gossipcop,Rachel Bilson Eddie Cibrian Take Two,fake,,False,real,0.6513205766677856,False
+politifact13698,politifact,trueamericans.me -&nbspThis website is for sale! -&nbsptrueamericans Resources and Information.,fake,,False,real,0.6513205766677856,False
+politifact14815,politifact,Miss Universe Guayana 2016 arrestada con 2kilos en London Airport😱,fake,,False,real,0.6513205766677856,False
+politifact15161,politifact,"Florida Bridge Collapse, Female Company",fake,,False,real,0.6513205766677856,False
+gossipcop-5989177922,gossipcop,Catherine Zeta-Jones Is Launching a Lifestyle Brand,fake,,False,real,0.6513205766677856,False
+gossipcop-877604,gossipcop,"MIRANDA LAMBERT TOPS THE LIST OF FINALISTS FOR “THE 51st ANNUAL CMA AWARDS” WITH FIVE NOMINATIONS, LITTLE BIG TOWN & KEITH URBAN FOLLOW WITH FOUR",real,,False,fake,0.6508430242538452,False
+gossipcop-894872,gossipcop,Jennifer Hudson and David Otunga split,real,images\test\gossipcop-894872_0_8d87c46c9b.jpg,True,fake,0.646202027797699,False
+gossipcop-765389544,gossipcop,Recognizing The Potential And Perils Of A 'Limitless' Mind,fake,images\test\gossipcop-765389544_0_c6f7c4b8af.jpg,True,real,0.645980179309845,False
+gossipcop-893876,gossipcop,Bilingual children's book based on life of Selena now available,real,,False,fake,0.6456848978996277,False
+gossipcop-876079,gossipcop,Lady Gaga Nude Photo: Hot or Not? (NSFW),real,images\test\gossipcop-876079_0_e6ffe05dc1.jpg,False,fake,0.6454514265060425,False
+gossipcop-7291449284,gossipcop,"Miley Cyrus Breaks Silence on Rootsy New Music, Fiance Liam Hemsworth & America: 'Unity Is What We Need'",fake,images\test\gossipcop-7291449284_0_81e541335a.jpg,True,real,0.6434769034385681,False
+gossipcop-896405,gossipcop,Burning questions about Meghan Markle and Prince Harry's royal wedding,real,images\test\gossipcop-896405_0_b81b5f74b2.jpg,True,fake,0.6423990726470947,False
+gossipcop-850269,gossipcop,Life of Kylie,real,,False,fake,0.6391949653625488,False
+gossipcop-917537,gossipcop,Inside Justin Bieber’s Private Birthday Celebration With Family and Friends,real,,False,fake,0.6390869617462158,False
+gossipcop-8393658999,gossipcop,Bradley Cooper,fake,images\test\gossipcop-8393658999_0_82ca13950f.jpg,True,real,0.637823760509491,False
+gossipcop-3799929008,gossipcop,Craig Robinson Drops 50 Pounds,fake,images\test\gossipcop-3799929008_0_2e5fcbe070.jpg,True,real,0.637210488319397,False
+gossipcop-2194660040,gossipcop,Melania Trump Claims ‘Spooks’ Are Slowly Poisoning Her Husband,fake,,False,real,0.6369185447692871,False
+gossipcop-2064470814,gossipcop,When women are abused on screen — and how that shapes opinions about whose stories we believe in real life,fake,images\test\gossipcop-2064470814_0_fdd1cbc6e4.jpg,True,real,0.636333167552948,False
+gossipcop-857120,gossipcop,Gigi Hadid and Lily Collins Just Wore the Same Pair of Jeans,real,images\test\gossipcop-857120_0_6e00844036.jpg,True,fake,0.6357747316360474,False
+gossipcop-6522821514,gossipcop,Prince Harry’s exes: who’s invited and who hasn't made the cut to the wedding of the year,fake,images\test\gossipcop-6522821514_0_22d68e0c80.jpg,True,real,0.6349819302558899,False
+gossipcop-895304,gossipcop,Jennifer Garner Shows How to Make a Perfect Thanksgiving Side Dish for 'Barefoot Contessa' (Exclusive),real,images\test\gossipcop-895304_0_9bc8c229df.jpg,True,fake,0.6340964436531067,False
+gossipcop-952021,gossipcop,Travis Barker Survives ‘Really Bad’ Crash with School Bus,real,,False,fake,0.6336339712142944,False
+gossipcop-9006484897,gossipcop,Kate Carrying Twins?,fake,images\test\gossipcop-9006484897_0_9d08cb5130.jpg,True,real,0.6332275867462158,False
+gossipcop-5600549104,gossipcop,Mike Tyson Offered SERIOUS Ca$h To Fight Russian Dictator Vladimir Putin,fake,images\test\gossipcop-5600549104_0_3b14c4d3ff.jpg,True,real,0.6315782070159912,False
+gossipcop-884084,gossipcop,Rihanna 'enjoys a quiet dinner with billionaire ex-boyfriend Hassan Jameel',real,images\test\gossipcop-884084_0_daaf6cb09e.jpg,True,fake,0.629840075969696,False
+gossipcop-866804,gossipcop,Kim Kardashian Snapchat Takes Taylor Swift Feud to New Level,real,,False,fake,0.6293150782585144,False
+gossipcop-870324,gossipcop,"John Mayer Defends Justin Bieber For Canceling 'Purpose' Tour, Proves They're BFFs",real,images\test\gossipcop-870324_0_ffca53de4e.jpg,True,fake,0.6280871629714966,False
+gossipcop-6630473431,gossipcop,Jessica Biel Was Shocked By the Pressure to Lose Weight After Giving Birth,fake,images\test\gossipcop-6630473431_0_cf89d58d0f.jpg,True,real,0.6279813647270203,False
+gossipcop-882423,gossipcop,Ben higgins clarifies romance rumors and reveals if he's dating anyone,real,,False,fake,0.6199121475219727,False
+gossipcop-1301068570,gossipcop,Channing Tatum and Jenna Dewan Tatum announce separation,fake,images\test\gossipcop-1301068570_0_762395b114.jpg,True,real,0.6196886897087097,False
+gossipcop-5913883000,gossipcop,Reese Witherspoon,fake,images\test\gossipcop-5913883000_0_977f8fd3bb.jpg,True,real,0.6188932061195374,False
+gossipcop-874619,gossipcop,Emily VanCamp and Josh Bowman adopt a rescue dog,real,,False,fake,0.6185544729232788,False
+gossipcop-871360,gossipcop,E! NEWS FEATURE: The Oral History of Celebrity Scandals at the Chateau Marmont,real,,False,fake,0.6185309886932373,False
+gossipcop-874208,gossipcop,Celebrity Personal Assistant: Salary,real,images\test\gossipcop-874208_0_a73ec9ddf7.jpg,True,fake,0.6168259978294373,False
+politifact14236,politifact,"Nancy Pelosi Suffers Breakdown, Taken From Capitol Hill On A Stretcher",fake,images\test\politifact14236_1_9e77efe646.jpg,True,real,0.6167246699333191,False
+politifact13855,politifact,Remarks by President Trump in a Listening Session on Healthcare,real,images\test\politifact13855_0_f1101aa244.jpg,True,fake,0.6132016181945801,False
+gossipcop-846423,gossipcop,Emma Watson stages a 'Harry Potter' mini-reunion — but it's not the first,real,images\test\gossipcop-846423_0_7ec06cd7bc.jpg,True,fake,0.6123495101928711,False
+gossipcop-882919,gossipcop,Julia Stiles Net Worth,real,images\test\gossipcop-882919_0_6a28701e4b.jpg,True,fake,0.6123311519622803,False
+gossipcop-913538,gossipcop,Keshia Knight Pulliam's surprising pick for Celebrity Big Brother winner,real,images\test\gossipcop-913538_0_b3304b0bcd.jpg,True,fake,0.611203134059906,False
+gossipcop-833460,gossipcop,"Inside the Quietly Adventurous Career of Jessica Biel, From 7th Heaven to The Sinner",real,,False,fake,0.6083984375,False
+gossipcop-1757374802,gossipcop,The Internet's Most Savage Reactions to Kylie Jenner Naming Her Daughter Stormi,fake,images\test\gossipcop-1757374802_0_49eee1de7d.jpg,True,real,0.6076462864875793,False
+gossipcop-9852868069,gossipcop,"Donald Trump Jr. Suggests Ron Perlman Knew About Harvey Weinstein’s Sexual Abuse, Calls Him a ‘Coward’ For Being Silent",fake,images\test\gossipcop-9852868069_0_d711c256f2.jpg,True,real,0.6075688600540161,False
+gossipcop-5111151830,gossipcop,Blake Shelton from Dancing With the Stars: Special Guests!,fake,images\test\gossipcop-5111151830_0_ce80690d17.jpg,True,real,0.6037483215332031,False
+gossipcop-7073979401,gossipcop,Jennifer Aniston's Revenge: Best Reactions to Brangelina Split,fake,images\test\gossipcop-7073979401_0_d8eef06799.jpg,True,real,0.6023529171943665,False
+gossipcop-7744297225,gossipcop,Julie Bowen,fake,images\test\gossipcop-7744297225_0_01c31bf047.jpg,True,real,0.6018263101577759,False
+gossipcop-893365,gossipcop,Zayn Malik And Gigi Hadid Are Celebrating Their Two Year Anniversary And Love Is Alive,real,,False,fake,0.6015318036079407,False
+gossipcop-8666163098,gossipcop,Kylie Jenner Has Finally Been Spotted Out In Public,fake,images\test\gossipcop-8666163098_0_5b233d4268.jpg,True,real,0.5959309935569763,False
+gossipcop-2118843089,gossipcop,Eva Mendes & Ryan Gosling's Home Is Bursting With Latin Culture & We're Obsessed,fake,images\test\gossipcop-2118843089_0_82d86eae5b.jpg,True,real,0.5942665934562683,False
+gossipcop-255832279,gossipcop,"Kim Shares Throwback Photo of Kris and Caitlyn After Family Drama, Sending Fans into Overdrive",fake,images\test\gossipcop-255832279_0_d7eb81e0fc.jpg,True,real,0.593967080116272,False
+gossipcop-915124,gossipcop,"Megan Fox Dishes on Balancing Romance, Kids and Designing Lingerie",real,,False,fake,0.5934190154075623,False
+gossipcop-913915,gossipcop,Kanye West Reactivates Instagram to Wish Kim Kardashian a Happy Valentine's Day,real,images\test\gossipcop-913915_0_d2c65632c5.jpg,True,fake,0.5915723443031311,False
+gossipcop-4224035489,gossipcop,Taylor Swift: F*ck The Virtue Signalling Left,fake,,False,real,0.5897752642631531,False
+gossipcop-902921,gossipcop,Tamar’s Ex Vincent Herbert And Laura Govan Deny The Baby Rumors,real,,False,fake,0.5896350145339966,False
+gossipcop-7697671735,gossipcop,Michael Fassbender and Alicia Vikander have gotten married in Ibiza,fake,images\test\gossipcop-7697671735_0_cb24ed0a0c.jpg,True,real,0.58588045835495,False
+gossipcop-4835208673,gossipcop,Nathan Zellner - News,fake,,False,real,0.5843927264213562,False
+gossipcop-4117140885,gossipcop,Justin Theroux and Aubrey Plaza: Intriguing New Couple Alert? – Wireler,fake,,False,real,0.5843100547790527,False
+gossipcop-800399273,gossipcop,List of songs recorded by Adele,fake,,False,real,0.5839040279388428,False
+gossipcop-1655879516,gossipcop,Here's Where Things Stand With Kim Kardashian and Kanye West,fake,images\test\gossipcop-1655879516_0_255dcadc40.jpg,True,real,0.5834218263626099,False
+gossipcop-889100,gossipcop,Kate Winslet Sidesteps Questions About Woody Allen: 'It’s Just a Difficult Discussion',real,,False,fake,0.5814706087112427,False
+gossipcop-848196,gossipcop,"Katy Perry, Jennifer Lopez Join James Corden's 'Carpool Karaoke' Primetime Special",real,images\test\gossipcop-848196_0_c8d9687c56.jpg,True,fake,0.5803787708282471,False
+gossipcop-3373871711,gossipcop,Jamie Foxx and Katie Holmes Finally Out in Public As a Couple,fake,images\test\gossipcop-3373871711_0_89ab1bc7f6.jpg,True,real,0.5801813006401062,False
+gossipcop-924756,gossipcop,How Kim Kardashian's Diet and Fitness Routine Left Her Feeling Stronger and Tighter,real,,False,fake,0.5790791511535645,False
+gossipcop-5494601224,gossipcop,Judge Dismisses DJ David Mueller’s Case Against Taylor Swift,fake,images\test\gossipcop-5494601224_0_33283c474f.jpg,True,real,0.5782206058502197,False
+gossipcop-4084135030,gossipcop,YogaEsoteric :: Macaulay Culkin: ‘Satanic’ Hollywood Execs Ritually Murder Child Actors ::,fake,images\test\gossipcop-4084135030_0_a4d21f2785.jpg,True,real,0.5770226716995239,False
+gossipcop-874653,gossipcop,Jerry Lewis Dead: Comedy Legend Was 91 – Variety,real,images\test\gossipcop-874653_0_3039f3aa8e.jpg,True,fake,0.5746355056762695,False
+gossipcop-7156354270,gossipcop,Countdown to the Royal Wedding: Why Meghan Markle Could Become the Next Princess Diana,fake,images\test\gossipcop-7156354270_0_690df07400.jpg,True,real,0.5734508633613586,False
+politifact5469,politifact,White and Blue Fund ad,real,,False,fake,0.5731635093688965,False
+gossipcop-920667,gossipcop,Zayn Malik and Gigi Hadid's relationship timeline,real,images\test\gossipcop-920667_0_bcc727e93d.jpg,True,fake,0.568871021270752,False
+gossipcop-953564,gossipcop,"Taylor Swift, James Corden and Jennifer Hudson Cast in Cats Movie",real,,False,fake,0.5666594505310059,False
+gossipcop-4844673896,gossipcop,Why Sandra Bullock and Bryan Randall Aren't Getting Engaged Anytime Soon,fake,images\test\gossipcop-4844673896_0_d63f6e9964.jpg,True,real,0.5664301514625549,False
+gossipcop-4853076939,gossipcop,Savannah Chrisley Dumped By NBA Player Boyfriend Luke Kennard,fake,images\test\gossipcop-4853076939_0_2a09139e8d.jpg,True,real,0.5611862540245056,False
+gossipcop-1329261407,gossipcop,Nicole Kidman: a stay at home Sunday girl,fake,images\test\gossipcop-1329261407_0_a3e2a5aa4f.jpg,True,real,0.5604551434516907,False
+gossipcop-2586454156,gossipcop,The long goodbye: Irina Shayk gives Bradley Cooper a farewell kiss before leaving London,fake,images\test\gossipcop-2586454156_0_7c29f5175b.jpg,True,real,0.5598249435424805,False
+politifact13897,politifact,Snoop Dogg Arrested For Conspiracy After Talking About His ‘Murder Trump’ Video,fake,,False,real,0.5594421029090881,False
+gossipcop-949381,gossipcop,David and Victoria Beckham celebrate 19th wedding anniversary,real,images\test\gossipcop-949381_0_976991e8e5.jpg,True,fake,0.5582571029663086,False
+gossipcop-841740,gossipcop,Mel B’s Sister Slams Abusive Husband Stephen Belafonte – “You Are A Sorry Excuse Of A Man!”,real,,False,fake,0.557976484298706,False
+gossipcop-857140,gossipcop,‘Pirates of the Caribbean: Dead Men Tell No Tales’ Review: Johnny Depp Serves Up a Fifth of Frivolity,real,images\test\gossipcop-857140_0_0a93f09f11.jpg,True,fake,0.5574302077293396,False
+gossipcop-893956,gossipcop,'American Horror Story': How 'Cult' Went Beyond Trump vs. Clinton,real,images\test\gossipcop-893956_0_5c15134b19.jpg,True,fake,0.5568428635597229,False
+gossipcop-2187887628,gossipcop,Celebrities Share Tributes to Victims of the Barcelona Terror Attack,fake,,False,real,0.5557590126991272,False
+gossipcop-900582,gossipcop,Kim Kardashian and Kanye West share their first family portrait in months,real,images\test\gossipcop-900582_0_b94e66749c.jpg,True,fake,0.5518797636032104,False
+gossipcop-690037397,gossipcop,Desperate Ariel Winter Begging Boyfriend Levi To Get Her Pregnant ‘ASAP’!,fake,images\test\gossipcop-690037397_0_d719061076.jpg,True,real,0.5484748482704163,False
+politifact15048,politifact,Trump Declares Globalist Soros As “National Security Threat”…Using Obama’s 2014 Executive Order,fake,,False,real,0.5475306510925293,False
+gossipcop-909631,gossipcop,Lady Gaga's Braid at the 2018 Grammys Is So Cool It Hurts,real,images\test\gossipcop-909631_0_75ace408b0.jpg,True,fake,0.5463239550590515,False
+gossipcop-6982132348,gossipcop,Chris Pratt Cover Story: From Dadbod Sidekick to Rock-Hard Hero,fake,images\test\gossipcop-6982132348_0_7c16c04515.jpg,True,real,0.5439503192901611,False
+gossipcop-870109,gossipcop,Josh Brolin’s Wife Hilariously Trolls Him Over The Size Of His Penis,real,,False,fake,0.5399886965751648,False
+politifact14947,politifact,Bill Clinton’s Hitman Confesses On His Deathbed (SOURCE: HANNITY),fake,,False,real,0.5380429625511169,False
+gossipcop-1952316280,gossipcop,"Steven Spielberg and Meryl Streep on Trump, News and Why 'The Post' Had to Be Made Now: ""Everyone I Know Is Scared""",fake,images\test\gossipcop-1952316280_0_a0f33bcebf.jpg,True,real,0.5366604328155518,False
+gossipcop-3012501895,gossipcop,Shia Labeouf Hitting On Dakota Johnson During Movie Shoot?,fake,,False,real,0.535729169845581,False
+politifact14394,politifact,BREAKING: Hillary Clinton Has Third Heart Attack-Docs Says She ‘Won’t Survive’,fake,,False,real,0.5351861715316772,False
+gossipcop-3780210928,gossipcop,Kylie Jenner sneers that 'everyone is jealous' of her post baby body after being slammed for promoting 'dangerous' waist trainers,fake,images\test\gossipcop-3780210928_0_0f0f452a92.jpg,True,real,0.5343001484870911,False
+gossipcop-5081601842,gossipcop,Trouble In Paradise: 15 Reasons Prince Harry And Meghan Markle Won’t Make It Down The Aisle,fake,,False,real,0.5339451432228088,False
+gossipcop-1536255789,gossipcop,Kim Kardashian Trolling Her Own Bikini Pic on Instagram Is Everything,fake,,False,real,0.5322520136833191,False
+gossipcop-951505,gossipcop,The truth about Michael J. Fox and Tracy Pollan's inspiring 30-year love story,real,,False,fake,0.5312145352363586,False
+gossipcop-906329,gossipcop,"Kim Zolciak-Biermann and Kandi Burruss Get Into Sexually Explicit, Expletive-Filled Twitter War",real,,False,fake,0.5311731696128845,False
+gossipcop-6251169316,gossipcop,Harry Styles: Why He Rules As HollywoodLife’s Star Of The Week,fake,,False,real,0.530715823173523,False
+gossipcop-2157078973,gossipcop,A-Rod Has This to Say About Those Jennifer Lopez Engagement Rumors,fake,images\test\gossipcop-2157078973_0_d1f09b7aa9.jpg,True,real,0.5289251804351807,False
+gossipcop-3529226336,gossipcop,Paris Jackson Strips Down To Play Cards,fake,,False,real,0.5275673866271973,False
+gossipcop-888973,gossipcop,Chris Evans and Jenny Slate Spark Rumors of Reconciliation Through Twitter Exchange,real,,False,fake,0.5269867777824402,False
+gossipcop-848488,gossipcop,Chris Pratt Apologizes in Sign Language to Hearing-Impaired Fans After Asking People to 'Turn Up the Volume' on Instagram,real,images\test\gossipcop-848488_0_8d4870362f.jpg,True,fake,0.5261302590370178,False
+gossipcop-5627872766,gossipcop,Could Charlize Theron Get A Role In 'Wonder Woman 2'?,fake,images\test\gossipcop-5627872766_0_8d87caa462.jpg,True,real,0.5253348350524902,False
+gossipcop-878724409,gossipcop,The 15 Saddest Taylor Swift Breakup Songs,fake,images\test\gossipcop-878724409_0_f0b39a34e1.jpg,True,real,0.5249546766281128,False
+gossipcop-882904,gossipcop,Kim Kardashian says she would feel ‘safe’ in Paris following her 2016 robbery,real,,False,fake,0.5248871445655823,False
+gossipcop-895746,gossipcop,"In the Age of Trump, Comfort Food TV Is Working",real,images\test\gossipcop-895746_0_8b9627c5dc.jpg,True,fake,0.5233119130134583,False
+gossipcop-893296,gossipcop,Taylor Swift Attends SNL After-Party and Takes Selfie With Leslie Jones,real,,False,fake,0.5224311351776123,False
+gossipcop-8789278055,gossipcop,Cannes Film Festival Pictures,fake,images\test\gossipcop-8789278055_0_1113509b73.jpg,True,real,0.5220900177955627,False
+gossipcop-2970470770,gossipcop,Pregnancy Nightmare! Khloe Kardashian ‘Riddled With Anxiety’ And ‘Isolated’ While Expecting!,fake,images\test\gossipcop-2970470770_0_7011549a48.jpg,True,real,0.5211257338523865,False
+gossipcop-2502492072,gossipcop,Kylie Jenner: Why She’s Crying Herself To Sleep Over Delivery Room Drama,fake,,False,real,0.5202112197875977,False
+politifact13936,politifact,BREAKING: Autopsy Results From Vince Foster’s Exhumed Body–Cause Of Death To Be Changed,fake,,False,real,0.5173606872558594,False
+politifact15270,politifact,Obama Announces Bid To Become UN Secretary General – Usa News,fake,,False,real,0.5153827667236328,False
+gossipcop-902496,gossipcop,Jay-Z's 'Family Feud' Video Teaser Shows Him And Beyonce In A Confessional Box,real,,False,fake,0.5137529373168945,False
+gossipcop-889508,gossipcop,Corey Feldman Wages $10 Million Campaign To Expose Hollywood Pedophile Ring,real,images\test\gossipcop-889508_0_e5c995dd45.jpg,True,fake,0.5132558941841125,False
+gossipcop-406996664,gossipcop,Celebrities say goodbye to Barack Obama after farewell address,fake,images\test\gossipcop-406996664_0_32171cb205.jpg,False,real,0.5131935477256775,False
+gossipcop-879076,gossipcop,Rihanna gives a flash of cleavage at NYFW show,real,images\test\gossipcop-879076_0_c38cf4bd1a.jpg,True,fake,0.5103311538696289,False
+gossipcop-7694678050,gossipcop,Nick Jonas & Priyanka Chopra's Relationship Is Reportedly Instagram Official & Fans Are Loving It — PHOTO,fake,images\test\gossipcop-7694678050_0_7b5894364a.jpg,True,real,0.5090253949165344,False
+gossipcop-912059,gossipcop,Sarah Ferguson: Why she was invited to Prince Harry’s wedding but NOT Prince William’s,real,images\test\gossipcop-912059_0_3e85bb04fd.jpg,True,fake,0.5084766149520874,False
+gossipcop-7152128232,gossipcop,Star: Nicole Kidman asks waiters to only bring her half of the meals she orders,fake,images\test\gossipcop-7152128232_0_87b54ebab4.jpg,True,real,0.5073772072792053,False
+gossipcop-947147,gossipcop,The Truth About the Complicated Relationship Between Meghan Markle and Her Father Thomas,real,,False,fake,0.5066741108894348,False
+gossipcop-904827,gossipcop,"Harvey Weinstein Uses Emails From Jill Messick, Ben Affleck To Deny Rose McGowan Claims",real,images\test\gossipcop-904827_0_116f8cf2b6.jpg,True,fake,0.5066410303115845,False
+gossipcop-580848065,gossipcop,25 Famous Women on Waxing and Shaving,fake,images\test\gossipcop-580848065_0_533c4e7e49.jpg,True,real,0.5048903822898865,False
+gossipcop-902227,gossipcop,Ryan Phillippe shows off insanely chiseled bod shirtless in the snow,real,,False,fake,0.5041419267654419,False
+gossipcop-911137,gossipcop,Chrissy Teigen May Have Seen Pregnant Kylie Jenner’s Baby Bump,real,images\test\gossipcop-911137_0_91d8c4189b.jpg,True,fake,0.503201425075531,False
+politifact14225,politifact,Ivanka Trump: Father feels 'vindicated' after Comey hearing,real,,False,fake,0.5031448006629944,False
+politifact466,politifact,Hillary Clinton Sits Down With Bill OReilly,real,,False,fake,0.5006856918334961,False
+politifact1701,politifact,"Bill Clinton on Rush Limbaugh, His Mistakes, the Supreme Court and Middle East Peace",real,,False,fake,0.5006856918334961,False
+gossipcop-915959,gossipcop,Jennifer Lawrence Is a Proud Middle-School Dropout,real,images\test\gossipcop-915959_0_f6fde56613.jpg,True,fake,0.5002517700195312,False

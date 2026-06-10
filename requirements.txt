@@ -1,0 +1,17 @@
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+Pillow
+requests
+tqdm
+beautifulsoup4
+lxml
+torch
+torchvision
+wordcloud
+nbformat
+scipy
+transformers
+accelerate
