@@ -37,6 +37,8 @@ failure_summary = read_csv(ART / "final_failure_category_summary.csv")
 source_metrics = read_csv(ART / "final_per_source_metrics.csv")
 bootstrap_ci = read_csv(ART / "final_bootstrap_ci_macro_f1.csv")
 mcnemar = read_csv(ART / "final_mcnemar_tests.csv")
+preclean_image_leakage = read_csv(ART / "cleaning_image_hash_leakage_pair_summary.csv")
+preclean_image_deleak = read_csv(ART / "cleaning_image_deleakage_audit.csv")
 leakage_pair = read_csv(ART / "final_image_content_leakage_pair_summary.csv")
 title_deleak = read_csv(ART / "final_deleakage_split_filter_audit.csv")
 image_deleak = read_csv(ART / "final_image_deleakage_split_filter_audit.csv")
@@ -296,8 +298,13 @@ def build_report() -> None:
         doc,
         "The fair multimodal benchmark uses valid-image-only, image-deleaked files with 4,829 training rows, 541 validation rows, and 518 test rows. This avoids giving image models placeholder images and prevents repeated image content from appearing across train, validation, and test."
     )
-    add_table(doc, leakage_pair, "TABLE II. IMAGE-CONTENT LEAKAGE AUDIT AFTER CLEANING", ["split_pair", "n_overlapping_image_hashes", "overlap_%_of_smaller_split"])
-    add_table(doc, content_summary, "TABLE III. CONTENT/TITLE MODELING SPLIT FOLDERS", ["section", "split", "rows", "content_available", "content_coverage_%", "title_fallback", "valid_images"], max_rows=6)
+    add_table(doc, preclean_image_leakage, "TABLE II. IMAGE-CONTENT LEAKAGE FOUND BEFORE DE-LEAKING", ["split_pair", "n_overlapping_image_hashes", "overlap_%_of_smaller_split"])
+    add_table(doc, preclean_image_deleak, "TABLE III. ROWS REMOVED TO FIX PRIOR-SPLIT IMAGE OVERLAP", ["split", "rows_before", "rows_after", "rows_removed_for_prior_split_image_overlap"])
+    add_para(
+        doc,
+        "After this de-leaking step, the final SHA-256 image-content audit reported zero train-validation, train-test, and validation-test image-hash overlap. In the report, this final all-clear result is stated in text instead of shown as a zero-filled table."
+    )
+    add_table(doc, content_summary, "TABLE IV. CONTENT/TITLE MODELING SPLIT FOLDERS", ["section", "split", "rows", "content_available", "content_coverage_%", "title_fallback", "valid_images"], max_rows=6)
     add_para(
         doc,
         "Article-body extraction was attempted, but historical URLs were often unavailable, blocked, or too short. To keep all usable samples, the final text field is text_for_model: article content is used when available and the title is used as fallback. This creates two clean data views: a valid-image multimodal folder and a text-only folder that can contain samples with or without images."
@@ -326,15 +333,15 @@ def build_report() -> None:
         doc,
         "The main fair benchmark is the 518-row valid-image, image-deleaked test split. Macro-F1 is emphasized because it balances fake and real classes. Accuracy, ROC-AUC, PR-AUC, confusion matrices, bootstrap confidence intervals, and McNemar tests are also reported where available."
     )
-    add_table(doc, fair_results, "TABLE IV. FAIR VALID-IMAGE TEST RESULTS", ["Model", "Input", "Accuracy", "Macro-F1", "ROC-AUC", "PR-AUC"], max_rows=10)
-    add_table(doc, deep_ablation, "TABLE V. DEEP ABLATION MEAN AND STANDARD DEVIATION ACROSS SEEDS", ["model", "accuracy_mean", "accuracy_std", "macro_f1_mean", "macro_f1_std"], max_rows=6)
+    add_table(doc, fair_results, "TABLE V. FAIR VALID-IMAGE TEST RESULTS", ["Model", "Input", "Accuracy", "Macro-F1", "ROC-AUC", "PR-AUC"], max_rows=10)
+    add_table(doc, deep_ablation, "TABLE VI. DEEP ABLATION MEAN AND STANDARD DEVIATION ACROSS SEEDS", ["model", "accuracy_mean", "accuracy_std", "macro_f1_mean", "macro_f1_std"], max_rows=6)
     add_para(
         doc,
         "The fair benchmark shows a narrow gap. TF-IDF Logistic Regression reached 0.7576 Macro-F1. Concat fusion and consistency fusion reached approximately 0.7635 and 0.7640 Macro-F1. The improvement exists, but it is small; therefore, the project should not claim that multimodal fusion clearly dominates text-only classification on this dataset."
     )
     add_figure(doc, FIG / "plot_16_final_model_comparison.png", "Fig. 4. Fair benchmark model comparison.")
-    add_table(doc, bootstrap_ci, "TABLE VI. BOOTSTRAPPED MACRO-F1 CONFIDENCE INTERVALS", ["model", "mean_boot", "ci_low", "ci_high"], max_rows=8)
-    add_table(doc, compact_mcnemar(), "TABLE VII. MCNEMAR TESTS AGAINST TEXT-ONLY BASELINE", ["comparison", "n01_A_correct_B_wrong", "n10_A_wrong_B_correct", "p_value"], max_rows=8)
+    add_table(doc, bootstrap_ci, "TABLE VII. BOOTSTRAPPED MACRO-F1 CONFIDENCE INTERVALS", ["model", "mean_boot", "ci_low", "ci_high"], max_rows=8)
+    add_table(doc, compact_mcnemar(), "TABLE VIII. MCNEMAR TESTS AGAINST TEXT-ONLY BASELINE", ["comparison", "n01_A_correct_B_wrong", "n10_A_wrong_B_correct", "p_value"], max_rows=8)
     add_para(
         doc,
         "The statistical checks support a careful interpretation. Fusion models are competitive, but the McNemar comparisons against TF-IDF are not decisive for the main fusion models. Image-only models are clearly weaker, confirming that images alone are not enough for fake/real classification in this subset."
@@ -345,13 +352,13 @@ def build_report() -> None:
         doc,
         "After the fair benchmark, the project performed a stronger diagnostic audit. Nearly 5,888 image-based records were inspected through validity and repeated-error checks. The audit removed 328 invalid-image rows and 519 hard or suspicious rows that remained after image validation, leaving 5,041 rows. This produced a normal shuffle split of 4,035 train, 502 validation, and 504 test records."
     )
-    add_table(doc, cleaning_audit, "TABLE VIII. MANUAL VALIDITY AND HARD-SAMPLE CLEANING AUDIT", ["stage", "rows"], max_rows=8)
-    add_table(doc, manual_audit_metrics, "TABLE IX. BEFORE/AFTER CLEANING MACRO-F1 CHANGE", ["model", "before_macro_f1", "after_macro_f1", "delta_pp"], max_rows=8)
+    add_table(doc, cleaning_audit, "TABLE IX. MANUAL VALIDITY AND HARD-SAMPLE CLEANING AUDIT", ["stage", "rows"], max_rows=8)
+    add_table(doc, manual_audit_metrics, "TABLE X. BEFORE/AFTER CLEANING MACRO-F1 CHANGE", ["model", "before_macro_f1", "after_macro_f1", "delta_pp"], max_rows=8)
     add_para(
         doc,
         "This diagnostic split changed the story. BERT reached 0.8489 Macro-F1, RoBERTa reached 0.8364, and TF-IDF reached 0.8244. The best multimodal diagnostic models were Swin-T plus TF-IDF fusion at 0.8078 and CLIP ViT-B/32 fusion at 0.8057. This suggests that label noise and invalid or misleading image-text pairs were suppressing performance, but also confirms that strong text encoders remain ahead."
     )
-    add_table(doc, normal_results, "TABLE X. DIAGNOSTIC NORMAL-SPLIT RESULTS ORDERED BY MACRO-F1", ["rank", "model_display", "model_family", "accuracy", "macro_f1", "roc_auc", "pr_auc"], max_rows=12)
+    add_table(doc, normal_results, "TABLE XI. DIAGNOSTIC NORMAL-SPLIT RESULTS ORDERED BY MACRO-F1", ["rank", "model_display", "model_family", "accuracy", "macro_f1", "roc_auc", "pr_auc"], max_rows=12)
     add_figure(doc, FIG / "final_macro_f1_horizontal_bar_top3.png", "Fig. 5. Diagnostic model ranking by Macro-F1.")
     add_figure(doc, FIG / "did_multimodal_win_top3_podium.png", "Fig. 6. Top-three podium: did multimodal win?")
     add_figure(doc, FIG / "slide24_training_behavior_many_models_dotted.png", "Fig. 7. Validation Macro-F1 behavior across selected models.")
@@ -361,7 +368,7 @@ def build_report() -> None:
         doc,
         "CLIP similarity was evaluated on valid image-title pairs as a proxy for semantic alignment. The key result is negative but important: fake articles were not necessarily less aligned than real articles. In fact, mean CLIP similarity for fake articles was slightly higher than for real articles in the evaluated set."
     )
-    add_table(doc, clip_table, "TABLE XI. CLIP IMAGE-TEXT CONSISTENCY ANALYSIS", ["Metric", "Value", "Interpretation"], max_rows=10)
+    add_table(doc, clip_table, "TABLE XII. CLIP IMAGE-TEXT CONSISTENCY ANALYSIS", ["Metric", "Value", "Interpretation"], max_rows=10)
     add_figure(doc, FIG / "clip_similarity_by_class.png", "Fig. 8. CLIP similarity by FakeNewsNet label.")
     add_figure(doc, FIG / "clip_inconsistency_roc_curve.png", "Fig. 9. CLIP inconsistency ROC curve.")
     add_para(
@@ -376,8 +383,8 @@ def build_report() -> None:
         doc,
         "The strongest lesson is that the dataset and protocol matter as much as the model. Text-only models are strong because the label is fake/real, and many fake-news cues appear in wording, topic, and headline style. Image features help in some controlled fusion settings, but they do not automatically solve the task because the visual information is not directly supervised as an inconsistency label."
     )
-    add_table(doc, failure_summary, "TABLE XII. FAILURE-CASE CATEGORY SUMMARY", ["failure_category", "count"])
-    add_table(doc, top_source_table(), "TABLE XIII. PER-SOURCE TEXT BASELINE DIAGNOSTIC METRICS", ["source", "n", "accuracy", "macro_f1", "fake_f1", "real_f1"])
+    add_table(doc, failure_summary, "TABLE XIII. FAILURE-CASE CATEGORY SUMMARY", ["failure_category", "count"])
+    add_table(doc, top_source_table(), "TABLE XIV. PER-SOURCE TEXT BASELINE DIAGNOSTIC METRICS", ["source", "n", "accuracy", "macro_f1", "fake_f1", "real_f1"])
     add_para(
         doc,
         "Failure cases often involved short or ambiguous titles, real articles with sensational wording, fake articles with visually relevant images, and source/domain imbalance. The PolitiFact portion is very small in the final valid-image test set, so per-source metrics for it are diagnostic rather than conclusive."
@@ -404,7 +411,7 @@ def build_report() -> None:
         "The repository is organized for repeatable execution. Notebook 01 performs dataset checks, EDA, image preparation, and content extraction. Notebook 02 performs cleaning, leakage audits, and split creation. Notebook 03 contains the main model experiments. Notebook 04 preserves rich multimodal, hard-sample, and retraining experiments. Figures are stored under reports/figures, tables under reports/tables, and large local artifacts are intentionally ignored by Git."
     )
     add_para(doc, "The main reproducibility evidence includes saved splits, saved predictions, metrics CSV files, fixed seeds, notebook run order, requirements.txt, README.md, and the GitHub repository link: " + GITHUB_URL)
-    add_table(doc, family_summary, "TABLE XIV. MODEL FAMILY SUMMARY FOR DIAGNOSTIC RUNS", ["rank", "base_model", "model_family", "runs", "accuracy_mean", "macro_f1_mean", "roc_auc_mean"], max_rows=12)
+    add_table(doc, family_summary, "TABLE XV. MODEL FAMILY SUMMARY FOR DIAGNOSTIC RUNS", ["rank", "base_model", "model_family", "runs", "accuracy_mean", "macro_f1_mean", "roc_auc_mean"], max_rows=12)
 
     add_heading(doc, "XI. TIMELINE AND TEAM CONTRIBUTIONS", 1)
     timeline = pd.DataFrame(
@@ -419,7 +426,7 @@ def build_report() -> None:
         ],
         columns=["Date", "Task", "Responsible"],
     )
-    add_table(doc, timeline, "TABLE XV. FINAL TIMELINE WITH STUDENT ASSIGNMENTS")
+    add_table(doc, timeline, "TABLE XVI. FINAL TIMELINE WITH STUDENT ASSIGNMENTS")
     add_para(
         doc,
         "Mohamed Hasan contributed to project framing, dataset credibility review, source-bias interpretation, leakage-risk discussion, and final presentation/report logic. He helped ensure that the report did not overclaim image-text inconsistency from fake/real labels."
