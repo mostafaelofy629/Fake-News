@@ -1,0 +1,25 @@
+Mostafa Mohiey El-Ofy. use the weight decay, optimizer, and hyper parameter tuning with many with many other various models including CNN of ResNet, convnet, inception, and transformers. 
+apply all unique methods in the project and much of pattern and optimization and test with comparison for each trail to be used in the report.
+
+
+
+
+first i need to add criterion and optimazer like adam 
+when i obserive the result i found it overfit fast i think from the second epoche use the early stopping
+stronger dropout
+lower learning rate
+pretrained image encoder
+more regularization
+third use another baseline in text like bert or mlp 
+fourth i need to use pretrianed model Resnet 50 frozen
+fifth leakage checks
+before any change give me your opinion in that as a prof in DL 
+
+
+
+i need to first re organize the code note book first note book i need him for start to check if dataset is downloaded or not if downloadded skip not download it 
+then is same the notebbok i need a eda working donot delete any figure 
+second notebook for cleaning do all cleaning code 
+third is for all text-only expermints
+fourth is for all multimodel- expermints
+fifth is for the evalurion and comparsions 

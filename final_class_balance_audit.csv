@@ -1,7 +1,0 @@
-split,label,n,split_total,percent
-test,fake,544,1106,49.19
-test,real,562,1106,50.81
-train,fake,4345,8843,49.13
-train,real,4498,8843,50.87
-val,fake,543,1105,49.14
-val,real,562,1105,50.86

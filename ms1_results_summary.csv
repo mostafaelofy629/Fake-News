@@ -1,3 +1,0 @@
-model,val_accuracy,val_macro_f1,test_accuracy,test_macro_f1,notes
-Text-only TF-IDF + Logistic Regression,0.7411417322834646,0.7397234254566636,0.7472636815920398,0.7463896262855871,Baseline required by project deliverables
-Multimodal CNN + Text Embedding Consistency Fusion,0.7411417322834646,0.7385581010806659,0.7422885572139304,0.7390476610582056,"Uses image features, text embeddings, |difference|, and product fusion terms"

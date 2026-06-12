@@ -53,6 +53,7 @@ data_splits/
 # ============================================================
 final_artifacts/
 artifacts/
+normal_split_gt6_plus_trainhard_artifacts/
 runs/
 wandb/
 
@@ -66,6 +67,7 @@ wandb/
 *.h5
 *.pkl
 *.joblib
+models/checkpoints/
 
 # ============================================================
 # Generated prediction/history files
@@ -86,6 +88,9 @@ duplicate_val_images_processed_count_above_4.csv
 # ============================================================
 report.docx
 report_extracted.txt
+/Final_Report_IEEE_G11_Multimodal_Fake_News.docx
+/Final_Report_IEEE_G11_Multimodal_Fake_News.previous.docx
+reports/documents/*previous*.docx
 project-instructions.pdf
 project_instructions_extracted.txt
 Yellow and Black Modern True Crime Presentation.pdf

@@ -1,4 +1,0 @@
-split,total_articles,articles_with_images,image_coverage_%,total_images,fake_with_images,real_with_images
-train,8843,4829,54.608164650005655,10237,2320,2509
-val,1105,610,55.203619909502265,1277,298,312
-test,1106,596,53.8878842676311,1246,289,307

@@ -15,3 +15,5 @@ nbformat
 scipy
 transformers
 accelerate
+easyocr
+opencv-python

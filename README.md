@@ -1,28 +1,87 @@
 # Multimodal Fake News Detection
 
-This project experiments with FakeNewsNet metadata, downloaded article images, and title text for fake/real news classification.
+This repository contains a Deep Learning project for fake/real news classification using FakeNewsNet-style text and image data. The work compares text-only baselines, image-only baselines, multimodal fusion models, pretrained image encoders, CLIP alignment diagnostics, rich OCR/BLIP features, voting ensembles, and hard-sample cleaning experiments.
 
-## Main Workflow
-1. Run `01_FakeNewsNet_EDA_FINAL_Enhanced.ipynb` to build cleaned, de-leaked train/validation/test splits and audit label/source/domain shortcuts.
-2. Run `02_Image_Download_and_Preparation_MS1_Ready.ipynb` to download images and create multimodal split files.
-3. Run `04_Dataset_Credibility_Audit_and_Cleaning.ipynb` to audit image duplicates/leakage and create image-de-leaked valid-image splits.
-4. Run `03_Multimodal_Model_Training_FINAL_Enhanced.ipynb` from the final workflow section to train and compare text-only, neural text, optional CLIP alignment, and multimodal models.
+The key scientific finding is that multimodal models do not automatically outperform strong text baselines. Text is the dominant signal in this dataset, while images are useful mainly for controlled ablations, alignment diagnostics, and failure-case analysis.
+
+## GitHub-Ready Layout
+
+```text
+notebooks/
+  01_Data_Download_EDA_Image_Content_Preparation.ipynb
+  02_Cleaning_Leakage_and_Splitting.ipynb
+  03_Main_Multimodal_Modeling_All_Experiments.ipynb
+  04_Rich_Hard_Sample_and_Final_Retraining_Experiments.ipynb
+  legacy/                         # original notebooks preserved
+
+reports/
+  documents/                      # final IEEE report and previous report copy
+  figures/                        # all report/EDA figures gathered in one place
+  presentation/                   # presentation plan and slide PDF
+
+docs/
+  project_brief/                  # assignment and extracted instructions
+  notes/                          # original project notes
+
+scripts/
+  build_content_title_modeling_splits.py
+  generate_final_ieee_report.py
+  legacy_helpers/                 # one-off helper scripts preserved
+
+models/checkpoints/               # local model checkpoints, ignored by Git
+artifacts/                        # generated outputs grouped by experiment, ignored by Git
+data_splits/                      # local split CSVs, ignored by Git
+dataset/, images/                 # local raw data/images, ignored by Git
+```
+
+## Recommended Run Order
+
+1. `notebooks/01_Data_Download_EDA_Image_Content_Preparation.ipynb`
+   - Checks whether the dataset exists.
+   - Performs EDA.
+   - Downloads/prepares images.
+   - Extracts article content when possible.
+   - Builds content/title modeling splits.
+
+2. `notebooks/02_Cleaning_Leakage_and_Splitting.ipynb`
+   - Cleans labels/text.
+   - Creates valid-image-only splits.
+   - Performs ID, title, and image-hash leakage checks.
+   - Creates final image-deleaked split files.
+
+3. `notebooks/03_Main_Multimodal_Modeling_All_Experiments.ipynb`
+   - Main experiment notebook.
+   - Includes text baselines, image-only CNN, CNN+text fusion, ResNet/ConvNeXt fusion, voting, leakage checks, per-source evaluation, and failure-case analysis.
+
+4. `notebooks/04_Rich_Hard_Sample_and_Final_Retraining_Experiments.ipynb`
+   - Preserves rich OCR/BLIP/BERT/ResNet50 trials.
+   - Preserves GT6 and hard-sample cleaning experiments.
+   - Includes final diagnostic retraining with BERT, DistilBERT, RoBERTa, CLIP, Swin, ConvNeXt, and voting.
+
+## Legacy Title-Only Data
+
+Before article-content fallback was introduced, the original title-only split CSVs were backed up locally in:
+
+```text
+data_splits/legacy_title_only/
+```
+
+This folder is ignored by Git because `data_splits/` can be large, but it is preserved locally so experiments can be compared against the original title-only setup.
 
 ## Important Methodology Notes
-- Source and domain columns are audit metadata only, not model inputs.
-- Duplicate normalized titles must not cross train/validation/test boundaries.
-- Placeholder-image multimodal runs are diagnostic because image availability is uneven by source/label.
-- Valid-image-only results are the fairer subset for claims about visual evidence.
-- Image-content duplicate leakage must be checked, not only ID/title leakage.
-- On the current cleaned split, text-only and multimodal fusion are competitive; do not overclaim multimodal superiority without statistical support.
-- CLIP alignment is included as an optional baseline because it directly models image-text semantic agreement.
 
-## Key Outputs
-- `final_artifacts/FINAL_REPORT_TABLE_model_comparison.csv`
-- `final_artifacts/final_title_leakage_audit.csv`
-- `final_artifacts/final_image_coverage_by_split_source_label.csv`
-- `final_artifacts/final_valid_image_only_model_results.csv`
-- `final_artifacts/final_clip_alignment_results.csv`
-- `final_artifacts/final_per_source_metrics.csv`
-- `final_artifacts/final_failure_cases_categorized.csv`
-- `final_artifacts/final_bootstrap_ci_macro_f1.csv`
+- Source/domain columns are audit metadata only; they are not used as model features.
+- Duplicate normalized titles must not cross train/validation/test boundaries.
+- Image-content leakage is checked with SHA-256 image hashes, not only IDs.
+- Valid-image-only evaluation is the fairer setting for claims about visual evidence.
+- CLIP similarity is an image-text alignment diagnostic, not a factual truth detector.
+- Hard-sample removal experiments are diagnostic and should not be presented as the primary fair benchmark because they are informed by prior model errors.
+
+## Key Report Artifacts
+
+- Final report: `reports/documents/Final_Report_IEEE_G11_Multimodal_Fake_News.docx`
+- Main figures: `reports/figures/`
+- Primary generated tables: `final_artifacts/` locally
+- Diagnostic retraining outputs: `normal_split_gt6_plus_trainhard_artifacts/` locally
+
+Large datasets, images, checkpoints, and generated artifacts are intentionally ignored by Git.

@@ -1,4 +1,0 @@
-split,n_rows,fake,real,valid_images,image_coverage_%,unique_sources,data_policy
-train,8843,4345,4498,4553,51.49,2,all_samples_with_gray_placeholder_for_missing_images
-val,1016,477,539,540,53.15,2,all_samples_with_gray_placeholder_for_missing_images
-test,1005,477,528,514,51.14,2,all_samples_with_gray_placeholder_for_missing_images
