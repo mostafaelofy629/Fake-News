@@ -12,7 +12,7 @@ notebooks/
   02_Cleaning_Leakage_and_Splitting.ipynb
   03_Main_Multimodal_Modeling_All_Experiments.ipynb
   04_Rich_Hard_Sample_and_Final_Retraining_Experiments.ipynb
-  legacy/                         # original notebooks preserved
+  old/                            # original notebooks preserved
 
 reports/
   documents/                      # final IEEE report and previous report copy
@@ -26,7 +26,7 @@ docs/
 scripts/
   build_content_title_modeling_splits.py
   generate_final_ieee_report.py
-  legacy_helpers/                 # one-off helper scripts preserved
+  old_helpers/                    # one-off helper scripts preserved
 
 models/checkpoints/               # local model checkpoints, ignored by Git
 artifacts/                        # generated outputs grouped by experiment, ignored by Git
@@ -58,12 +58,12 @@ dataset/, images/                 # local raw data/images, ignored by Git
    - Preserves GT6 and hard-sample cleaning experiments.
    - Includes final diagnostic retraining with BERT, DistilBERT, RoBERTa, CLIP, Swin, ConvNeXt, and voting.
 
-## Legacy Title-Only Data
+## Original Title-Only Data
 
 Before article-content fallback was introduced, the original title-only split CSVs were backed up locally in:
 
 ```text
-data_splits/legacy_title_only/
+data_splits/title_only_archive/
 ```
 
 This folder is ignored by Git because `data_splits/` can be large, but it is preserved locally so experiments can be compared against the original title-only setup.

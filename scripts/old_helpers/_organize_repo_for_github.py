@@ -48,8 +48,8 @@ def merge_notebooks(output: Path, sources: list[Path], title: str, description: 
     merged = nbformat.v4.new_notebook()
     merged.cells.append(new_markdown_cell(f"# {title}\n\n{description}"))
     for src in sources:
-        if not src.exists() and (Path("notebooks/legacy") / src.name).exists():
-            src = Path("notebooks/legacy") / src.name
+        if not src.exists() and (Path("notebooks/old") / src.name).exists():
+            src = Path("notebooks/old") / src.name
         if not src.exists():
             merged.cells.append(new_markdown_cell(f"## Missing Source Notebook\n\n`{src.name}` was not found during reorganization."))
             continue
@@ -60,7 +60,7 @@ def merge_notebooks(output: Path, sources: list[Path], title: str, description: 
             merged.metadata["language_info"] = nb.metadata["language_info"]
         merged.cells.append(
             new_markdown_cell(
-                f"---\n\n## Legacy Source: `{src.name}`\n\n"
+                f"---\n\n## Original Source: `{src.name}`\n\n"
                 "The following cells are preserved from the original notebook during GitHub reorganization."
             )
         )
@@ -71,24 +71,24 @@ def merge_notebooks(output: Path, sources: list[Path], title: str, description: 
 
 def main() -> None:
     ensure_dirs(
-        "notebooks/legacy",
+        "notebooks/old",
         "reports/figures",
         "reports/documents",
         "reports/presentation",
         "docs/project_brief",
         "docs/notes",
-        "scripts/legacy_helpers",
+        "scripts/old_helpers",
         "models/checkpoints",
         "artifacts/root_predictions",
         "artifacts/root_training_histories",
         "artifacts/root_audits_and_tables",
         "artifacts/ms1",
         "artifacts/experiment_branches",
-        "data_splits/legacy_title_only",
+        "data_splits/title_only_archive",
     )
 
     # Preserve the original title-only CSV split before article-content fallback augmentation.
-    legacy_split_files = [
+    title_split_files = [
         "clean_full.csv",
         "train.csv",
         "val.csv",
@@ -97,10 +97,10 @@ def main() -> None:
         "val_multimodal.csv",
         "test_multimodal.csv",
     ]
-    for name in legacy_split_files:
-        copy_file(Path("data_splits") / name, Path("data_splits/legacy_title_only") / name)
-    Path("data_splits/legacy_title_only/README.md").write_text(
-        "# Legacy Title-Only Splits\n\n"
+    for name in title_split_files:
+        copy_file(Path("data_splits") / name, Path("data_splits/title_only_archive") / name)
+    Path("data_splits/title_only_archive/README.md").write_text(
+        "# Original Title-Only Splits\n\n"
         "These files preserve the pre-content-extraction title-only splits. Later notebooks add "
         "`text_for_model`, which uses article content when available and falls back to title text.\n",
         encoding="utf-8",
@@ -145,7 +145,7 @@ def main() -> None:
     )
 
     for nb in ROOT.glob("*.ipynb"):
-        move_file(nb, Path("notebooks/legacy") / nb.name)
+        move_file(nb, Path("notebooks/old") / nb.name)
 
     # Figures: root-level plots are moved; final-artifact report figures are copied for convenience.
     for png in ROOT.glob("plot*.png"):
@@ -172,7 +172,7 @@ def main() -> None:
     for name in ["build_content_title_modeling_splits.py", "generate_final_ieee_report.py"]:
         move_file(Path(name), Path("scripts") / name)
     for py in ROOT.glob("_*.py"):
-        move_file(py, Path("scripts/legacy_helpers") / py.name)
+        move_file(py, Path("scripts/old_helpers") / py.name)
 
     # Checkpoints and generated root-level experiment outputs.
     for pt in ROOT.glob("*.pt"):

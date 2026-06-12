@@ -2,7 +2,7 @@
 
 Use the four merged notebooks in this folder for the clean GitHub workflow.
 
-The original notebooks are preserved unchanged in `notebooks/legacy/` so no experiment code was deleted during reorganization.
+The original notebooks are preserved unchanged in `notebooks/old/` so no experiment code was deleted during reorganization.
 
 Recommended order:
 

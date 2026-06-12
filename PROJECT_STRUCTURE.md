@@ -2,14 +2,14 @@
 
 ## What Was Reorganized
 
-- Original notebooks were preserved in `notebooks/legacy/`.
+- Original notebooks were preserved in `notebooks/old/`.
 - GitHub-facing merged notebooks were created in `notebooks/`.
 - Root-level plots were moved into `reports/figures/`.
 - Report and presentation files were moved into `reports/`.
-- One-off helper scripts were moved into `scripts/legacy_helpers/`.
+- One-off helper scripts were moved into `scripts/old_helpers/`.
 - Model checkpoints were moved into `models/checkpoints/`.
 - Root-level prediction/history/audit CSVs were moved into `artifacts/`.
-- Original title-only split CSVs were backed up locally in `data_splits/legacy_title_only/`.
+- Original title-only split CSVs were backed up locally in `data_splits/title_only_archive/`.
 
 ## Main Notebooks
 

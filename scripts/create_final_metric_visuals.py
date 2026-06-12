@@ -217,11 +217,11 @@ def plot_podium(df: pd.DataFrame) -> Path:
 def plot_reproducibility() -> Path:
     FIG_DIR.mkdir(parents=True, exist_ok=True)
     items = [
-        ("Saved splits", "data_splits/ + legacy_title_only/"),
+        ("Saved splits", "data_splits/ + title_only_archive/"),
         ("Saved predictions", "normal_split_*_test_predictions.csv"),
         ("Saved metrics CSVs", "normal_split_*_metrics.csv"),
         ("Fixed seeds", "SEED=42; retrain seeds 42/123/2026"),
-        ("Notebook pipeline", "4 merged notebooks + legacy archive"),
+        ("Notebook pipeline", "4 merged notebooks + old archive"),
         ("GitHub repository", "README + PROJECT_STRUCTURE + requirements"),
     ]
 
